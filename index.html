@@ -1,0 +1,1442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zill-e-Huma Minhas | IT Graduate & Developer</title>
+  <meta name="description" content="Portfolio of Zill-e-Huma Minhas — IT Graduate & Developer from Rawalpindi, Pakistan. Specializing in Python, AI workflows, Computer Vision, and full-stack software development.">
+  <meta name="keywords" content="Zill-e-Huma Minhas, IT Graduate, Software Developer, Python, Rawalpindi, Pakistan, Computer Vision, AI, Portfolio">
+  <meta name="author" content="Zill-e-Huma Minhas">
+  <meta name="theme-color" content="#0a0e1a">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="Zill-e-Huma Minhas | IT Graduate & Developer">
+  <meta property="og:description" content="Technology with purpose. Solutions that work. Explore projects, experience, skills, and certifications.">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon (Inline SVG) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23121933'/%3E%3Cpath d='M25 32 L45 32 L25 68 L50 68' stroke='%237c6cff' stroke-width='8' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3Cpath d='M58 32 L58 68 M58 50 L80 50 M80 32 L80 68' stroke='%233dd6c6' stroke-width='8' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="ambient-glow glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow glow-2" aria-hidden="true"></div>
+  <div class="ambient-glow glow-3" aria-hidden="true"></div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="header">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Zill-e-Huma Minhas Home">
+        <span class="logo-bracket">&lt;</span>
+        <span class="logo-text">ZH</span>
+        <span class="logo-slash">/</span>
+        <span class="logo-bracket">&gt;</span>
+        <span class="brand-name">Huma Minhas</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#certificates" class="nav-link">Certificates</a></li>
+        </ul>
+        <a href="#contact" class="btn btn-sm btn-primary nav-cta">Let's Connect</a>
+      </nav>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <!-- Particle Network Canvas -->
+      <canvas id="particle-canvas" class="particle-canvas" aria-hidden="true"></canvas>
+
+      <div class="container hero-container">
+        <div class="hero-grid">
+          <!-- Left Column: Copy & CTAs -->
+          <div class="hero-content reveal-on-scroll">
+            <div class="status-badge">
+              <span class="status-pulse" aria-hidden="true"></span>
+              <span class="status-text">Available for Opportunities &bull; Rawalpindi, PK</span>
+            </div>
+
+            <h1 class="hero-title">
+              Technology with purpose.<br>
+              <span class="gradient-text">Solutions that work.</span>
+            </h1>
+
+            <p class="hero-subtitle">
+              Hi, I'm <strong class="text-highlight">Zill-e-Huma Minhas</strong> — an IT graduate, developer, and AI enthusiast. 
+              I design and engineer reliable desktop applications, intelligent agent workflows, and clean web solutions.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">
+                <span>See my projects</span>
+                <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="#contact" class="btn btn-secondary">
+                <span>Let's connect</span>
+                <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </a>
+            </div>
+
+            <div class="quick-tags">
+              <span class="quick-tag-label">Core Focus:</span>
+              <span class="quick-tag">Python & Computer Vision</span>
+              <span class="quick-tag">AI Workflows & n8n</span>
+              <span class="quick-tag">Full-Stack Development</span>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Python Terminal Card -->
+          <div class="hero-terminal-wrapper reveal-on-scroll">
+            <div class="terminal-card" id="terminal-card">
+              <div class="terminal-header">
+                <div class="terminal-controls" aria-hidden="true">
+                  <span class="control-dot close"></span>
+                  <span class="control-dot minimize"></span>
+                  <span class="control-dot expand"></span>
+                </div>
+                <div class="terminal-title">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></svg>
+                  <span>developer_profile.py</span>
+                </div>
+                <button class="terminal-action-btn" id="terminal-replay" title="Replay typing effect" aria-label="Replay typing animation">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
+                  <span>Replay</span>
+                </button>
+              </div>
+              <div class="terminal-body">
+                <div class="terminal-line-numbers" id="terminal-line-numbers" aria-hidden="true"></div>
+                <pre class="terminal-content" id="terminal-code" tabindex="0" aria-label="Interactive Python code snippet describing Zill-e-Huma Minhas"><code id="typewriter-code"></code><span class="cursor" id="typewriter-cursor" aria-hidden="true"></span></pre>
+              </div>
+              <div class="terminal-footer">
+                <span class="terminal-status"><span class="status-indicator"></span> Python 3.12 &bull; UTF-8</span>
+                <span class="terminal-location">Rawalpindi, Pakistan</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Animated Count-up Stats Strip -->
+        <div class="stats-strip reveal-on-scroll">
+          <div class="stat-card">
+            <div class="stat-icon-wrapper" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            </div>
+            <div class="stat-info">
+              <div class="stat-number-wrapper">
+                <span class="stat-number" data-target="3.77" data-decimals="2">0.00</span>
+                <span class="stat-suffix">/ 4.0</span>
+              </div>
+              <span class="stat-label">CGPA &bull; BS IT Graduate</span>
+            </div>
+          </div>
+
+          <div class="stat-divider" aria-hidden="true"></div>
+
+          <div class="stat-card">
+            <div class="stat-icon-wrapper" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+            </div>
+            <div class="stat-info">
+              <div class="stat-number-wrapper">
+                <span class="stat-number" data-target="14" data-decimals="0">0</span>
+                <span class="stat-suffix">+</span>
+              </div>
+              <span class="stat-label">Engineered Projects</span>
+            </div>
+          </div>
+
+          <div class="stat-divider" aria-hidden="true"></div>
+
+          <div class="stat-card">
+            <div class="stat-icon-wrapper" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+            </div>
+            <div class="stat-info">
+              <div class="stat-number-wrapper">
+                <span class="stat-number" data-target="14" data-decimals="0">0</span>
+                <span class="stat-suffix"></span>
+              </div>
+              <span class="stat-label">Certificates & Events</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <div class="section-kicker">
+            <span class="kicker-dot"></span>
+            <span>Featured Work</span>
+          </div>
+          <h2 class="section-title">Projects & Systems</h2>
+          <p class="section-description">
+            A diverse spectrum of solutions ranging from cybersecurity CTF platforms and AI meeting summarizers to computer vision and n8n autonomous agent workflows.
+          </p>
+
+          <!-- Projects Category Filters -->
+          <div class="filter-bar" role="tablist" aria-label="Filter Projects">
+            <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">
+              All <span class="filter-count">(14)</span>
+            </button>
+            <button class="filter-btn" data-filter="software" role="tab" aria-selected="false">
+              Software & apps <span class="filter-count">(6)</span>
+            </button>
+            <button class="filter-btn" data-filter="ai" role="tab" aria-selected="false">
+              AI & automation <span class="filter-count">(5)</span>
+            </button>
+            <button class="filter-btn" data-filter="security" role="tab" aria-selected="false">
+              Security & vision <span class="filter-count">(3)</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projects-grid">
+          <!-- 1. DeadLock Mystery -->
+          <article class="project-card reveal-on-scroll" data-category="security software">
+            <div class="project-header gradient-cyber">
+              <div class="project-icon-badge" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+              </div>
+              <span class="project-number">01</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-category-badge">Security & Vision</span>
+                <span class="project-status-pill live">Live Demo</span>
+              </div>
+              <h3 class="project-title">DeadLock Mystery</h3>
+              <p class="project-desc">
+                Interactive CTF (Capture The Flag) cybersecurity learning platform featuring 12 challenging security levels, dynamic player dashboard, global leaderboard, and dedicated practice and compete modes.
+              </p>
+              <div class="project-tags">
+                <span class="tag">CTF</span>
+                <span class="tag">Cybersecurity</span>
+                <span class="tag">Web App</span>
+                <span class="tag">Game Logic</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://prismatic-phoenix-9b11f8.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Visit DeadLock Mystery live site (opens in new tab)">
+                  <span>Launch Live Platform</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 2. Smart Minutes -->
+          <article class="project-card reveal-on-scroll" data-category="ai">
+            <div class="project-header gradient-ai">
+              <div class="project-icon-badge" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/></svg>
+              </div>
+              <span class="project-number">02</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-category-badge">AI & Automation</span>
+                <span class="project-status-pill fyp">Final Year Project</span>
+              </div>
+              <h3 class="project-title">Smart Minutes</h3>
+              <p class="project-desc">
+                AI meeting recorder and summarizer producing meticulously organized minutes, action items, speaker insights, and key decisions from multi-speaker conversations.
+              </p>
+              <div class="project-tags">
+                <span class="tag">AI</span>
+                <span class="tag">Audio Processing</span>
+                <span class="tag">Summarization</span>
+                <span class="tag">NLP</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 3. Face Detection & Image Sorting -->
+          <article class="project-card reveal-on-scroll" data-category="security">
+            <div class="project-header gradient-vision">
+              <div class="project-icon-badge" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+              </div>
+              <span class="project-number">03</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-category-badge">Security & Vision</span>
+                <span class="project-status-pill pinstech">PINSTECH Project</span>
+              </div>
+              <h3 class="project-title">Face Detection & Image Sorting</h3>
+              <p class="project-desc">
+                High-performance desktop application engineered during PINSTECH internship for real-time face detection, clustering, and automated intelligent sorting across image datasets.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">OpenCV</span>
+                <span class="tag">Computer Vision</span>
+                <span class="tag">Desktop App</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 4. Smart Attendance System -->
+          <article class="project-card reveal-on-scroll" data-category="security">
+            <div class="project-header gradient-security">
+              <div class="project-icon-badge" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><polyline points="16 11 18 13 22 9"/></svg>
+              </div>
+              <span class="project-number">04</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-category-badge">Security & Vision</span>
+              </div>
+              <h3 class="project-title">Smart Attendance System</h3>
+              <p class="project-desc">
+                Automated attendance tracking system utilizing facial recognition models to eliminate manual logging, reduce proxy entries, and log verification timestamps seamlessly.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">OpenCV</span>
+                <span class="tag">Face Recognition</span>
+                <span class="tag">Automation</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 5. Inventory Management System -->
+          <article class="project-card reveal-on-scroll" data-category="software">
+            <div class="project-header gradient-web">
+              <div class="project-icon-badge" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+              </div>
+              <span class="project-number">05</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-category-badge">Software & Apps</span>
+              </div>
+              <h3 class="project-title">Inventory Management System</h3>
+              <p class="project-desc">
+                Web-based inventory tracking and analytics portal facilitating stock level monitoring, low-inventory notifications, transaction auditing, and tabular PDF reports.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">PHP</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">MySQL</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 6. Hotel Management System -->
+          <article class="project-card reveal-on-scroll" data-category="software">
+            <div class="project-header gradient-java">
+              <div class="project-icon-badge" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+              </div>
+              <span class="project-number">06</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-category-badge">Software & Apps</span>
+              </div>
+              <h3 class="project-title">Hotel Management System</h3>
+              <p class="project-desc">
+                Desktop software solution for hospitality operations, managing seamless room bookings, availability calendar, guest profiles, check-in billing, and administration.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Java</span>
+                <span class="tag">Swing/GUI</span>
+                <span class="tag">OOP</span>
+                <span class="tag">Database</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 7. Tasbeeh App -->
+          <article class="project-card reveal-on-scroll" data-category="software">
+            <div class="project-header gradient-mobile">
+              <div class="project-icon-badge" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+              </div>
+              <span class="project-number">07</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-category-badge">Software & Apps</span>
+              </div>
+              <h3 class="project-title">Tasbeeh App</h3>
+              <p class="project-desc">
+                Clean, minimalist Android utility counter app with persistent counter state, haptic feedback, reset controls, and night-friendly UI theme.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Android</span>
+                <span class="tag">Java</span>
+                <span class="tag">Shared Preferences</span>
+                <span class="tag">Mobile</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 8. Scientific Calculator -->
+          <article class="project-card reveal-on-scroll" data-category="software">
+            <div class="project-header gradient-calc">
+              <div class="project-icon-badge" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="8.01" y2="10"/><line x1="12" y1="10" x2="12.01" y2="10"/><line x1="16" y1="10" x2="16.01" y2="10"/><line x1="8" y1="14" x2="8.01" y2="14"/><line x1="12" y1="14" x2="12.01" y2="14"/><line x1="16" y1="14" x2="16.01" y2="14"/><line x1="8" y1="18" x2="16" y2="18"/></svg>
+              </div>
+              <span class="project-number">08</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-category-badge">Software & Apps</span>
+              </div>
+              <h3 class="project-title">Scientific Calculator</h3>
+              <p class="project-desc">
+                Desktop computational engine providing trigonometric calculations, logarithmic evaluation, powers, parentheses expressions, and history logging.
+              </p>
+              <div class="project-tags">
+                <span class="tag">C#</span>
+                <span class="tag">.NET</span>
+                <span class="tag">Math Engine</span>
+                <span class="tag">WinForms</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 9. Car Rental System -->
+          <article class="project-card reveal-on-scroll" data-category="software">
+            <div class="project-header gradient-car">
+              <div class="project-icon-badge" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="5" width="22" height="14" rx="7"/><circle cx="7" cy="15" r="2"/><circle cx="17" cy="15" r="2"/></svg>
+              </div>
+              <span class="project-number">09</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-category-badge">Software & Apps</span>
+              </div>
+              <h3 class="project-title">Car Rental System</h3>
+              <p class="project-desc">
+                Desktop software for automotive fleet tracking, customer reservations, rental billing agreements, vehicle maintenance logs, and return checklists.
+              </p>
+              <div class="project-tags">
+                <span class="tag">C#</span>
+                <span class="tag">.NET</span>
+                <span class="tag">Relational DB</span>
+                <span class="tag">Desktop</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 10. BMI Calculator -->
+          <article class="project-card reveal-on-scroll" data-category="software">
+            <div class="project-header gradient-health">
+              <div class="project-icon-badge" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </div>
+              <span class="project-number">10</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-category-badge">Software & Apps</span>
+              </div>
+              <h3 class="project-title">BMI Calculator</h3>
+              <p class="project-desc">
+                Intuitive mobile health utility calculating body mass index metrics, health category interpretation, ideal weight advice, and historical tracking.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Android</span>
+                <span class="tag">Java</span>
+                <span class="tag">Mobile UI</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 11. AI Search Agent -->
+          <article class="project-card reveal-on-scroll" data-category="ai">
+            <div class="project-header gradient-search">
+              <div class="project-icon-badge" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              </div>
+              <span class="project-number">11</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-category-badge">AI & Automation</span>
+              </div>
+              <h3 class="project-title">AI Search Agent</h3>
+              <p class="project-desc">
+                Intelligent conversational agent with memory buffer and live web search synthesis via SerpApi, ultra-fast inferencing powered by Groq LLM architecture.
+              </p>
+              <div class="project-tags">
+                <span class="tag">n8n</span>
+                <span class="tag">Groq LLM</span>
+                <span class="tag">SerpApi</span>
+                <span class="tag">AI Memory</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 12. AI Weather Chatbot -->
+          <article class="project-card reveal-on-scroll" data-category="ai">
+            <div class="project-header gradient-weather">
+              <div class="project-icon-badge" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg>
+              </div>
+              <span class="project-number">12</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-category-badge">AI & Automation</span>
+              </div>
+              <h3 class="project-title">AI Weather Chatbot</h3>
+              <p class="project-desc">
+                Modular multi-node chatbot utilizing child workflows to dynamically fetch, parse, and formulate conversational weather advisories via OpenWeatherMap API.
+              </p>
+              <div class="project-tags">
+                <span class="tag">n8n</span>
+                <span class="tag">OpenWeatherMap</span>
+                <span class="tag">REST APIs</span>
+                <span class="tag">Workflows</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 13. AI Food-Ordering Chatbot -->
+          <article class="project-card reveal-on-scroll" data-category="ai">
+            <div class="project-header gradient-food">
+              <div class="project-icon-badge" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+              </div>
+              <span class="project-number">13</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-category-badge">AI & Automation</span>
+              </div>
+              <h3 class="project-title">AI Food-Ordering Chatbot</h3>
+              <p class="project-desc">
+                Conversational ordering agent equipped with menu lookup, dietary memory, order confirmation logic, automated logging to Google Sheets, powered by Google Gemini.
+              </p>
+              <div class="project-tags">
+                <span class="tag">n8n</span>
+                <span class="tag">Gemini AI</span>
+                <span class="tag">Google Sheets</span>
+                <span class="tag">Automation</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 14. Customer Data Filter Workflow -->
+          <article class="project-card reveal-on-scroll" data-category="ai">
+            <div class="project-header gradient-data">
+              <div class="project-icon-badge" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+              </div>
+              <span class="project-number">14</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-category-badge">AI & Automation</span>
+              </div>
+              <h3 class="project-title">Customer Data Filter Workflow</h3>
+              <p class="project-desc">
+                High-throughput automated ETL pipeline mapping variable customer schemas, sanitizing records, and segmenting dataset entries by country and demographic parameters.
+              </p>
+              <div class="project-tags">
+                <span class="tag">n8n</span>
+                <span class="tag">Data Mapping</span>
+                <span class="tag">Segmentation</span>
+                <span class="tag">Automation</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE & EDUCATION SECTION -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <div class="section-kicker">
+            <span class="kicker-dot"></span>
+            <span>Career Milestones</span>
+          </div>
+          <h2 class="section-title">Experience & Education</h2>
+          <p class="section-description">
+            Hands-on technical internships, real-world development, and academic excellence in Information Technology.
+          </p>
+        </div>
+
+        <div class="timeline-wrapper">
+          <div class="timeline-track" aria-hidden="true"></div>
+
+          <!-- Timeline item 1: PINSTECH -->
+          <div class="timeline-item reveal-on-scroll">
+            <div class="timeline-dot-wrapper">
+              <span class="timeline-dot" aria-hidden="true"></span>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-badge-group">
+                <span class="timeline-date">Aug 2026 – Sep 2026</span>
+                <span class="timeline-type-pill work">Internship</span>
+              </div>
+              <h3 class="timeline-role">IT Intern</h3>
+              <h4 class="timeline-org">PINSTECH (Pakistan Institute of Nuclear Science & Technology)</h4>
+              <p class="timeline-location">Nilore, Islamabad</p>
+              <p class="timeline-desc">
+                Engineered a comprehensive desktop application for real-time face detection and automated image sorting across visual datasets using Python and computer vision algorithms.
+              </p>
+              <div class="timeline-skills">
+                <span class="tag">Python</span>
+                <span class="tag">Image Processing</span>
+                <span class="tag">Computer Vision</span>
+                <span class="tag">OpenCV</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline item 2: Deloitte -->
+          <div class="timeline-item reveal-on-scroll">
+            <div class="timeline-dot-wrapper">
+              <span class="timeline-dot" aria-hidden="true"></span>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-badge-group">
+                <span class="timeline-date">Jan 2026</span>
+                <span class="timeline-type-pill simulation">Job Simulation</span>
+              </div>
+              <h3 class="timeline-role">Data Analytics Job Simulation</h3>
+              <h4 class="timeline-org">Deloitte via Forage</h4>
+              <p class="timeline-location">Remote Simulation</p>
+              <p class="timeline-desc">
+                Analyzed complex corporate datasets, derived business insights, and built interactive visualizations to communicate strategic data interpretations.
+              </p>
+              <div class="timeline-skills">
+                <span class="tag">Data Analytics</span>
+                <span class="tag">Visualization</span>
+                <span class="tag">Dataset Interpretation</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline item 3: BS IT Degree -->
+          <div class="timeline-item reveal-on-scroll highlight-item">
+            <div class="timeline-dot-wrapper">
+              <span class="timeline-dot academic-dot" aria-hidden="true"></span>
+            </div>
+            <div class="timeline-card academic-card">
+              <div class="timeline-badge-group">
+                <span class="timeline-date">Oct 2022 – Jun 2026</span>
+                <span class="timeline-type-pill education">Degree &bull; CGPA 3.77</span>
+              </div>
+              <h3 class="timeline-role">BS Information Technology</h3>
+              <h4 class="timeline-org">Rawalpindi Women University</h4>
+              <p class="timeline-location">Rawalpindi, Pakistan</p>
+              <p class="timeline-desc">
+                Graduated with an outstanding academic record (CGPA 3.77 / 4.0). Led technical projects, completed comprehensive coursework spanning Software Engineering, Database Systems, Computer Networks, and Machine Learning.
+              </p>
+              <div class="timeline-skills">
+                <span class="tag">CGPA 3.77</span>
+                <span class="tag">Final Year Project: Smart Minutes</span>
+                <span class="tag">Algorithms</span>
+                <span class="tag">Database Administration</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline item 4: Networking Intern RWU -->
+          <div class="timeline-item reveal-on-scroll">
+            <div class="timeline-dot-wrapper">
+              <span class="timeline-dot" aria-hidden="true"></span>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-badge-group">
+                <span class="timeline-date">Aug 2025 – Sep 2025</span>
+                <span class="timeline-type-pill work">Internship</span>
+              </div>
+              <h3 class="timeline-role">Networking Intern</h3>
+              <h4 class="timeline-org">Rawalpindi Women University</h4>
+              <p class="timeline-location">Rawalpindi, Pakistan</p>
+              <p class="timeline-desc">
+                Configured and monitored university network infrastructure simulations in Cisco Packet Tracer, diagnosed subnet routing, and resolved active network connectivity bottlenecks.
+              </p>
+              <div class="timeline-skills">
+                <span class="tag">Cisco Packet Tracer</span>
+                <span class="tag">Network Configuration</span>
+                <span class="tag">Troubleshooting</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline item 5: BloodLink -->
+          <div class="timeline-item reveal-on-scroll">
+            <div class="timeline-dot-wrapper">
+              <span class="timeline-dot" aria-hidden="true"></span>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-badge-group">
+                <span class="timeline-date">Feb 2025 – Aug 2025</span>
+                <span class="timeline-type-pill freelance">Freelance</span>
+              </div>
+              <h3 class="timeline-role">Freelance Graphic Designer</h3>
+              <h4 class="timeline-org">BloodLink</h4>
+              <p class="timeline-location">Freelance / Remote</p>
+              <p class="timeline-desc">
+                Created brand identity assets and high-impact digital promotional materials for donor awareness drives using Canva, Adobe Illustrator, and Photoshop.
+              </p>
+              <div class="timeline-skills">
+                <span class="tag">Canva</span>
+                <span class="tag">Illustrator</span>
+                <span class="tag">Photoshop</span>
+                <span class="tag">Visual Design</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline item 6: Bestway Cement -->
+          <div class="timeline-item reveal-on-scroll">
+            <div class="timeline-dot-wrapper">
+              <span class="timeline-dot" aria-hidden="true"></span>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-badge-group">
+                <span class="timeline-date">Jun 2024 – Aug 2024</span>
+                <span class="timeline-type-pill work">Internship</span>
+              </div>
+              <h3 class="timeline-role">Web Developer Intern</h3>
+              <h4 class="timeline-org">Bestway Cement Limited</h4>
+              <p class="timeline-location">Islamabad, Pakistan</p>
+              <p class="timeline-desc">
+                Developed responsive web pages and backend connectivity using HTML, CSS, JavaScript, and PHP, assisting in internal web system updates and user testing.
+              </p>
+              <div class="timeline-skills">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">PHP</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline item 7: ICS Nur Khan -->
+          <div class="timeline-item reveal-on-scroll">
+            <div class="timeline-dot-wrapper">
+              <span class="timeline-dot" aria-hidden="true"></span>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-badge-group">
+                <span class="timeline-date">Jun 2019 – Jul 2021</span>
+                <span class="timeline-type-pill education">Intermediate</span>
+              </div>
+              <h3 class="timeline-role">Intermediate (ICS - Computer Science)</h3>
+              <h4 class="timeline-org">Fazaia Inter College Nur Khan</h4>
+              <p class="timeline-location">Rawalpindi, Pakistan</p>
+              <p class="timeline-desc">
+                Achieved 87% marks with strong foundation in core computer science, mathematics, and programming logic.
+              </p>
+              <div class="timeline-skills">
+                <span class="tag">Score: 87%</span>
+                <span class="tag">Mathematics</span>
+                <span class="tag">Computer Science</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline item 8: Matriculation PAF Base Masroor -->
+          <div class="timeline-item reveal-on-scroll">
+            <div class="timeline-dot-wrapper">
+              <span class="timeline-dot" aria-hidden="true"></span>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-badge-group">
+                <span class="timeline-date">Apr 2017 – Mar 2019</span>
+                <span class="timeline-type-pill education">Matriculation</span>
+              </div>
+              <h3 class="timeline-role">Matriculation (Science)</h3>
+              <h4 class="timeline-org">Govt Girls Secondary School PAF Base Masroor</h4>
+              <p class="timeline-location">Karachi, Pakistan</p>
+              <p class="timeline-desc">
+                Completed secondary school certificate with 74% marks with concentration in Science subjects.
+              </p>
+              <div class="timeline-skills">
+                <span class="tag">Score: 74%</span>
+                <span class="tag">Science</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <div class="section-kicker">
+            <span class="kicker-dot"></span>
+            <span>Technical Capabilities</span>
+          </div>
+          <h2 class="section-title">Skills & Toolset</h2>
+          <p class="section-description">
+            A comprehensive overview of programming languages, web stacks, data management, mobile frameworks, and developer workflows.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Programming -->
+          <div class="skill-category-card reveal-on-scroll">
+            <div class="skill-category-header">
+              <div class="skill-icon-box" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <h3 class="skill-category-title">Programming</h3>
+            </div>
+            <div class="chips-list">
+              <span class="skill-chip">C</span>
+              <span class="skill-chip">C++</span>
+              <span class="skill-chip">C#</span>
+              <span class="skill-chip">Java</span>
+              <span class="skill-chip highlight">Python</span>
+            </div>
+          </div>
+
+          <!-- Web -->
+          <div class="skill-category-card reveal-on-scroll">
+            <div class="skill-category-header">
+              <div class="skill-icon-box" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              </div>
+              <h3 class="skill-category-title">Web</h3>
+            </div>
+            <div class="chips-list">
+              <span class="skill-chip">HTML</span>
+              <span class="skill-chip">CSS</span>
+              <span class="skill-chip highlight">JavaScript</span>
+              <span class="skill-chip">PHP</span>
+            </div>
+          </div>
+
+          <!-- Databases -->
+          <div class="skill-category-card reveal-on-scroll">
+            <div class="skill-category-header">
+              <div class="skill-icon-box" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+              </div>
+              <h3 class="skill-category-title">Databases</h3>
+            </div>
+            <div class="chips-list">
+              <span class="skill-chip">SQL</span>
+              <span class="skill-chip">SQLite</span>
+              <span class="skill-chip">MS Access</span>
+              <span class="skill-chip highlight">PostgreSQL</span>
+              <span class="skill-chip">MongoDB</span>
+            </div>
+          </div>
+
+          <!-- Mobile -->
+          <div class="skill-category-card reveal-on-scroll">
+            <div class="skill-category-header">
+              <div class="skill-icon-box" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+              </div>
+              <h3 class="skill-category-title">Mobile</h3>
+            </div>
+            <div class="chips-list">
+              <span class="skill-chip highlight">Android</span>
+              <span class="skill-chip">Java</span>
+              <span class="skill-chip">Fragments</span>
+              <span class="skill-chip">SQLite</span>
+              <span class="skill-chip">Shared Preferences</span>
+            </div>
+          </div>
+
+          <!-- Data Analysis -->
+          <div class="skill-category-card reveal-on-scroll">
+            <div class="skill-category-header">
+              <div class="skill-icon-box" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+              </div>
+              <h3 class="skill-category-title">Data Analysis</h3>
+            </div>
+            <div class="chips-list">
+              <span class="skill-chip highlight">Excel</span>
+              <span class="skill-chip">SQL</span>
+              <span class="skill-chip highlight">Tableau</span>
+            </div>
+          </div>
+
+          <!-- Networking -->
+          <div class="skill-category-card reveal-on-scroll">
+            <div class="skill-category-header">
+              <div class="skill-icon-box" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+              </div>
+              <h3 class="skill-category-title">Networking</h3>
+            </div>
+            <div class="chips-list">
+              <span class="skill-chip highlight">Cisco Packet Tracer</span>
+              <span class="skill-chip">VirtualBox</span>
+            </div>
+          </div>
+
+          <!-- Dev Tools -->
+          <div class="skill-category-card reveal-on-scroll">
+            <div class="skill-category-header">
+              <div class="skill-icon-box" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+              </div>
+              <h3 class="skill-category-title">Dev Tools</h3>
+            </div>
+            <div class="chips-list">
+              <span class="skill-chip">Android Studio</span>
+              <span class="skill-chip highlight">VS Code</span>
+              <span class="skill-chip">Visual Studio</span>
+              <span class="skill-chip highlight">PyCharm</span>
+              <span class="skill-chip">IntelliJ</span>
+            </div>
+          </div>
+
+          <!-- Cloud & Design -->
+          <div class="skill-category-card reveal-on-scroll">
+            <div class="skill-category-header">
+              <div class="skill-icon-box" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <h3 class="skill-category-title">Cloud & Design</h3>
+            </div>
+            <div class="chips-list">
+              <span class="skill-chip highlight">Supabase</span>
+              <span class="skill-chip">Canva</span>
+              <span class="skill-chip">Illustrator</span>
+              <span class="skill-chip">Photoshop</span>
+            </div>
+          </div>
+
+          <!-- Professional -->
+          <div class="skill-category-card reveal-on-scroll">
+            <div class="skill-category-header">
+              <div class="skill-icon-box" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <h3 class="skill-category-title">Professional</h3>
+            </div>
+            <div class="chips-list">
+              <span class="skill-chip">Excel</span>
+              <span class="skill-chip">PowerPoint</span>
+              <span class="skill-chip">Word</span>
+              <span class="skill-chip">Outlook</span>
+              <span class="skill-chip highlight">Teamwork</span>
+              <span class="skill-chip highlight">Problem-solving</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Languages Strip -->
+        <div class="languages-card reveal-on-scroll">
+          <div class="languages-header">
+            <div class="skill-icon-box" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+            </div>
+            <h3 class="languages-title">Languages Spoken</h3>
+          </div>
+          <div class="languages-list">
+            <div class="lang-item">
+              <div class="lang-info">
+                <span class="lang-name">English</span>
+                <span class="lang-level">Professional Proficiency</span>
+              </div>
+              <div class="lang-bar-track" aria-hidden="true">
+                <div class="lang-bar-fill" style="width: 90%;"></div>
+              </div>
+            </div>
+            <div class="lang-item">
+              <div class="lang-info">
+                <span class="lang-name">Urdu</span>
+                <span class="lang-level">Native</span>
+              </div>
+              <div class="lang-bar-track" aria-hidden="true">
+                <div class="lang-bar-fill" style="width: 100%;"></div>
+              </div>
+            </div>
+            <div class="lang-item">
+              <div class="lang-info">
+                <span class="lang-name">Punjabi</span>
+                <span class="lang-level">Native</span>
+              </div>
+              <div class="lang-bar-track" aria-hidden="true">
+                <div class="lang-bar-fill" style="width: 100%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATES & EVENTS SECTION -->
+    <section class="section certificates-section" id="certificates">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <div class="section-kicker">
+            <span class="kicker-dot"></span>
+            <span>Verified Credentials</span>
+          </div>
+          <h2 class="section-title">Certificates & Events</h2>
+          <p class="section-description">
+            Recognized national training certifications, vendor qualifications, technical hackathons, and scientific university symposiums. Click any certificate to inspect in fullscreen.
+          </p>
+
+          <!-- Certificate Filters -->
+          <div class="filter-bar" role="tablist" aria-label="Filter Certificates">
+            <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">
+              All <span class="filter-count">(14)</span>
+            </button>
+            <button class="filter-btn" data-filter="ai-data" role="tab" aria-selected="false">
+              AI & Data <span class="filter-count">(5)</span>
+            </button>
+            <button class="filter-btn" data-filter="technology" role="tab" aria-selected="false">
+              Technology <span class="filter-count">(3)</span>
+            </button>
+            <button class="filter-btn" data-filter="events" role="tab" aria-selected="false">
+              Events <span class="filter-count">(7)</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Uniform Grid: 3 cols desktop, 2 tablet, 1 mobile -->
+        <div class="certificates-grid" id="certificates-grid">
+
+          <!-- 1. ACT AI, National AI Training Programme -->
+          <article class="cert-card reveal-on-scroll" data-category="ai-data" data-index="0">
+            <div class="cert-media-frame" tabindex="0" role="button" aria-label="Open ACT AI, National AI Training Programme certificate in fullscreen">
+              <!-- Blurred ambient background copy -->
+              <img class="cert-bg-blur" src="assets/certificates/Ai Skill Bridge.jfif" alt="" aria-hidden="true" loading="lazy">
+              <!-- Crisp foreground image -->
+              <img class="cert-fg-img" src="assets/certificates/Ai Skill Bridge.jfif" alt="ACT AI, National AI Training Programme Certificate" loading="lazy">
+              <div class="cert-overlay-action" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                <span>View Fullscreen</span>
+              </div>
+            </div>
+            <div class="cert-details">
+              <span class="cert-category-tag">AI & Data</span>
+              <h3 class="cert-title">ACT AI, National AI Training Programme</h3>
+            </div>
+          </article>
+
+          <!-- 2. Database Administration, DBA Track -->
+          <article class="cert-card reveal-on-scroll" data-category="technology" data-index="1">
+            <div class="cert-media-frame" tabindex="0" role="button" aria-label="Open Database Administration, DBA Track certificate in fullscreen">
+              <img class="cert-bg-blur" src="assets/certificates/Navtacc.jfif" alt="" aria-hidden="true" loading="lazy">
+              <img class="cert-fg-img" src="assets/certificates/Navtacc.jfif" alt="Database Administration, DBA Track Certificate NAVTTC" loading="lazy">
+              <div class="cert-overlay-action" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                <span>View Fullscreen</span>
+              </div>
+            </div>
+            <div class="cert-details">
+              <span class="cert-category-tag">Technology</span>
+              <h3 class="cert-title">Database Administration, DBA Track</h3>
+            </div>
+          </article>
+
+          <!-- 3. Design Prompts for Everyday Work Tasks -->
+          <article class="cert-card reveal-on-scroll" data-category="ai-data" data-index="2">
+            <div class="cert-media-frame" tabindex="0" role="button" aria-label="Open Design Prompts for Everyday Work Tasks certificate in fullscreen">
+              <img class="cert-bg-blur" src="assets/certificates/Design prompt coursera.png" alt="" aria-hidden="true" loading="lazy">
+              <img class="cert-fg-img" src="assets/certificates/Design prompt coursera.png" alt="Design Prompts for Everyday Work Tasks Google Coursera Certificate" loading="lazy">
+              <div class="cert-overlay-action" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                <span>View Fullscreen</span>
+              </div>
+            </div>
+            <div class="cert-details">
+              <span class="cert-category-tag">AI & Data</span>
+              <h3 class="cert-title">Design Prompts for Everyday Work Tasks</h3>
+            </div>
+          </article>
+
+          <!-- 4. IT Specialist, Databases -->
+          <article class="cert-card reveal-on-scroll" data-category="technology" data-index="3">
+            <div class="cert-media-frame" tabindex="0" role="button" aria-label="Open IT Specialist, Databases certificate in fullscreen">
+              <img class="cert-bg-blur" src="assets/certificates/IT specialist certificate.jfif" alt="" aria-hidden="true" loading="lazy">
+              <img class="cert-fg-img" src="assets/certificates/IT specialist certificate.jfif" alt="IT Specialist Databases Pearson Certiport Certificate" loading="lazy">
+              <div class="cert-overlay-action" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                <span>View Fullscreen</span>
+              </div>
+            </div>
+            <div class="cert-details">
+              <span class="cert-category-tag">Technology</span>
+              <h3 class="cert-title">IT Specialist, Databases</h3>
+            </div>
+          </article>
+
+          <!-- 5. Microsoft Access Masterclass -->
+          <article class="cert-card reveal-on-scroll" data-category="technology" data-index="4">
+            <div class="cert-media-frame" tabindex="0" role="button" aria-label="Open Microsoft Access Masterclass certificate in fullscreen">
+              <img class="cert-bg-blur" src="assets/certificates/Alison.jfif" alt="" aria-hidden="true" loading="lazy">
+              <img class="cert-fg-img" src="assets/certificates/Alison.jfif" alt="Microsoft Access Masterclass Alison CPD Certificate" loading="lazy">
+              <div class="cert-overlay-action" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                <span>View Fullscreen</span>
+              </div>
+            </div>
+            <div class="cert-details">
+              <span class="cert-category-tag">Technology</span>
+              <h3 class="cert-title">Microsoft Access Masterclass</h3>
+            </div>
+          </article>
+
+          <!-- 6. Microsoft Certified: Azure AI Fundamentals AI-900 -->
+          <article class="cert-card reveal-on-scroll" data-category="ai-data" data-index="5">
+            <div class="cert-media-frame" tabindex="0" role="button" aria-label="Open Microsoft Certified: Azure AI Fundamentals AI-900 certificate in fullscreen">
+              <img class="cert-bg-blur" src="assets/certificates/MS certified Arzue.png" alt="" aria-hidden="true" loading="lazy">
+              <img class="cert-fg-img" src="assets/certificates/MS certified Arzue.png" alt="Microsoft Certified Azure AI Fundamentals AI-900 Certificate" loading="lazy">
+              <div class="cert-overlay-action" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                <span>View Fullscreen</span>
+              </div>
+            </div>
+            <div class="cert-details">
+              <span class="cert-category-tag">AI & Data</span>
+              <h3 class="cert-title">Microsoft Certified: Azure AI Fundamentals AI-900</h3>
+            </div>
+          </article>
+
+          <!-- 7. AI Seekho 2026, Google Antigravity National Hackathon -->
+          <article class="cert-card reveal-on-scroll" data-category="events" data-index="6">
+            <div class="cert-media-frame" tabindex="0" role="button" aria-label="Open AI Seekho 2026, Google Antigravity National Hackathon certificate in fullscreen">
+              <img class="cert-bg-blur" src="assets/certificates/google antigravity.png" alt="" aria-hidden="true" loading="lazy">
+              <img class="cert-fg-img" src="assets/certificates/google antigravity.png" alt="AI Seekho 2026 Google Antigravity National Hackathon Certificate" loading="lazy">
+              <div class="cert-overlay-action" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                <span>View Fullscreen</span>
+              </div>
+            </div>
+            <div class="cert-details">
+              <span class="cert-category-tag">Events</span>
+              <h3 class="cert-title">AI Seekho 2026, Google Antigravity National Hackathon</h3>
+            </div>
+          </article>
+
+          <!-- 8. Hands-on ML & DL with Streamlit workshop, Rawalpindi Women University -->
+          <article class="cert-card reveal-on-scroll" data-category="ai-data events" data-index="7">
+            <div class="cert-media-frame" tabindex="0" role="button" aria-label="Open Hands-on ML & DL with Streamlit workshop certificate in fullscreen">
+              <img class="cert-bg-blur" src="assets/certificates/Ml and Dl with steamlit.png" alt="" aria-hidden="true" loading="lazy">
+              <img class="cert-fg-img" src="assets/certificates/Ml and Dl with steamlit.png" alt="Hands-on ML & DL with Streamlit workshop certificate RWU" loading="lazy">
+              <div class="cert-overlay-action" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                <span>View Fullscreen</span>
+              </div>
+            </div>
+            <div class="cert-details">
+              <span class="cert-category-tag">AI & Data &bull; Events</span>
+              <h3 class="cert-title">Hands-on ML & DL with Streamlit workshop, Rawalpindi Women University</h3>
+            </div>
+          </article>
+
+          <!-- 9. Workshop: Use of Generative AI Tools -->
+          <article class="cert-card reveal-on-scroll" data-category="ai-data" data-index="8">
+            <div class="cert-media-frame" tabindex="0" role="button" aria-label="Open Workshop: Use of Generative AI Tools certificate in fullscreen">
+              <img class="cert-bg-blur" src="assets/certificates/use og ai generatic tool.jfif" alt="" aria-hidden="true" loading="lazy">
+              <img class="cert-fg-img" src="assets/certificates/use og ai generatic tool.jfif" alt="Workshop Use of Generative AI Tools Certificate RWU" loading="lazy">
+              <div class="cert-overlay-action" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                <span>View Fullscreen</span>
+              </div>
+            </div>
+            <div class="cert-details">
+              <span class="cert-category-tag">AI & Data</span>
+              <h3 class="cert-title">Workshop: Use of Generative AI Tools</h3>
+            </div>
+          </article>
+
+          <!-- 10. Idea Fest Competition, participant -->
+          <article class="cert-card reveal-on-scroll" data-category="events" data-index="9">
+            <div class="cert-media-frame" tabindex="0" role="button" aria-label="Open Idea Fest Competition participant certificate in fullscreen">
+              <img class="cert-bg-blur" src="assets/certificates/3rd idea fest 2026.png" alt="" aria-hidden="true" loading="lazy">
+              <img class="cert-fg-img" src="assets/certificates/3rd idea fest 2026.png" alt="Idea Fest Competition Participant Certificate RWU" loading="lazy">
+              <div class="cert-overlay-action" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                <span>View Fullscreen</span>
+              </div>
+            </div>
+            <div class="cert-details">
+              <span class="cert-category-tag">Events</span>
+              <h3 class="cert-title">Idea Fest Competition, participant</h3>
+            </div>
+          </article>
+
+          <!-- 11. Coding Speed Competition, participant -->
+          <article class="cert-card reveal-on-scroll" data-category="events" data-index="10">
+            <div class="cert-media-frame" tabindex="0" role="button" aria-label="Open Coding Speed Competition participant certificate in fullscreen">
+              <img class="cert-bg-blur" src="assets/certificates/speed coding.png" alt="" aria-hidden="true" loading="lazy">
+              <img class="cert-fg-img" src="assets/certificates/speed coding.png" alt="Speed Coding HITEC Olympiad Certificate" loading="lazy">
+              <div class="cert-overlay-action" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                <span>View Fullscreen</span>
+              </div>
+            </div>
+            <div class="cert-details">
+              <span class="cert-category-tag">Events</span>
+              <h3 class="cert-title">Coding Speed Competition, participant</h3>
+            </div>
+          </article>
+
+          <!-- 12. Bank the Unbanked Ideathon, Jan 2025, NIC Islamabad -->
+          <article class="cert-card reveal-on-scroll" data-category="events" data-index="11">
+            <div class="cert-media-frame" tabindex="0" role="button" aria-label="Open Bank the Unbanked Ideathon certificate in fullscreen">
+              <img class="cert-bg-blur" src="assets/certificates/moblink bank.jfif" alt="" aria-hidden="true" loading="lazy">
+              <img class="cert-fg-img" src="assets/certificates/moblink bank.jfif" alt="Bank the Unbanked Ideathon Mobilink Bank NIC Islamabad Certificate" loading="lazy">
+              <div class="cert-overlay-action" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                <span>View Fullscreen</span>
+              </div>
+            </div>
+            <div class="cert-details">
+              <span class="cert-category-tag">Events</span>
+              <h3 class="cert-title">Bank the Unbanked Ideathon, Jan 2025, NIC Islamabad</h3>
+            </div>
+          </article>
+
+          <!-- 13. Peace & Tolerance: Promoting Interfaith Harmony seminar, NACTA and Rawalpindi Women University -->
+          <article class="cert-card reveal-on-scroll" data-category="events" data-index="12">
+            <div class="cert-media-frame" tabindex="0" role="button" aria-label="Open Peace & Tolerance Promoting Interfaith Harmony certificate in fullscreen">
+              <img class="cert-bg-blur" src="assets/certificates/peace and trolence.png" alt="" aria-hidden="true" loading="lazy">
+              <img class="cert-fg-img" src="assets/certificates/peace and trolence.png" alt="Peace and Tolerance Interfaith Harmony NACTA RWU Seminar Certificate" loading="lazy">
+              <div class="cert-overlay-action" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                <span>View Fullscreen</span>
+              </div>
+            </div>
+            <div class="cert-details">
+              <span class="cert-category-tag">Events</span>
+              <h3 class="cert-title">Peace & Tolerance: Promoting Interfaith Harmony seminar, NACTA and Rawalpindi Women University</h3>
+            </div>
+          </article>
+
+          <!-- 14. 3rd & 4th International Conference on Science, Rawalpindi Women University -->
+          <article class="cert-card reveal-on-scroll" data-category="events" data-index="13">
+            <div class="cert-media-frame" tabindex="0" role="button" aria-label="Open 3rd & 4th International Conference on Science certificate in fullscreen">
+              <img class="cert-bg-blur" src="assets/certificates/3rd international conference.png" alt="" aria-hidden="true" loading="lazy">
+              <img class="cert-fg-img" src="assets/certificates/3rd international conference.png" alt="3rd International Conference of Sciences Rawalpindi Women University Certificate" loading="lazy">
+              <div class="cert-overlay-action" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                <span>View Fullscreen</span>
+              </div>
+            </div>
+            <div class="cert-details">
+              <span class="cert-category-tag">Events</span>
+              <h3 class="cert-title">3rd & 4th International Conference on Science, Rawalpindi Women University</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FULLSCREEN LIGHTBOX MODAL -->
+    <div class="lightbox-modal" id="lightbox-modal" role="dialog" aria-modal="true" aria-label="Certificate Fullscreen Viewer" aria-hidden="true">
+      <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+      
+      <div class="lightbox-shell">
+        <header class="lightbox-header">
+          <div class="lightbox-counter" id="lightbox-counter">1 / 14</div>
+          <div class="lightbox-header-actions">
+            <button class="lightbox-btn" id="lightbox-close" aria-label="Close fullscreen view (Esc)">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+          </div>
+        </header>
+
+        <div class="lightbox-stage">
+          <button class="lightbox-arrow prev" id="lightbox-prev" aria-label="Previous certificate (Left arrow)">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
+          </button>
+
+          <figure class="lightbox-figure">
+            <img class="lightbox-img" id="lightbox-img" src="" alt="">
+          </figure>
+
+          <button class="lightbox-arrow next" id="lightbox-next" aria-label="Next certificate (Right arrow)">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </button>
+        </div>
+
+        <footer class="lightbox-footer">
+          <span class="lightbox-cat-badge" id="lightbox-category">Category</span>
+          <h4 class="lightbox-title" id="lightbox-title">Certificate Title</h4>
+          <p class="lightbox-hint">Use &larr; and &rarr; arrow keys to navigate &bull; Esc to close</p>
+        </footer>
+      </div>
+    </div>
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-card-box reveal-on-scroll">
+          <div class="contact-header">
+            <div class="section-kicker">
+              <span class="kicker-dot"></span>
+              <span>Get In Touch</span>
+            </div>
+            <h2 class="contact-headline">Good work starts with a conversation.</h2>
+            <p class="contact-subhead">
+              Whether you are looking to collaborate on high-impact software, discuss an engineering position, or share ideas on artificial intelligence, I'd love to connect.
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <!-- Contact Channels -->
+            <div class="contact-channels">
+              <!-- Email Card -->
+              <div class="channel-card">
+                <div class="channel-icon-wrapper" aria-hidden="true">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div class="channel-info">
+                  <span class="channel-type">Direct Email</span>
+                  <a href="mailto:humaminhas14314@gmail.com" class="channel-value email-link">humaminhas14314@gmail.com</a>
+                </div>
+                <button class="channel-copy-btn" id="copy-email-btn" title="Copy email address" aria-label="Copy email address to clipboard">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  <span class="copy-text">Copy</span>
+                </button>
+              </div>
+
+              <!-- LinkedIn Card -->
+              <div class="channel-card">
+                <div class="channel-icon-wrapper" aria-hidden="true">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </div>
+                <div class="channel-info">
+                  <span class="channel-type">LinkedIn Network</span>
+                  <a href="https://linkedin.com/in/zill-e-huma-minhas-4337a2371" target="_blank" rel="noopener noreferrer" class="channel-value">zill-e-huma-minhas-4337a2371</a>
+                </div>
+                <a href="https://linkedin.com/in/zill-e-huma-minhas-4337a2371" target="_blank" rel="noopener noreferrer" class="channel-action-link" aria-label="Open LinkedIn profile in new tab">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+              </div>
+
+              <!-- Phone Card -->
+              <div class="channel-card">
+                <div class="channel-icon-wrapper" aria-hidden="true">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div class="channel-info">
+                  <span class="channel-type">Phone & WhatsApp</span>
+                  <a href="tel:+923169986733" class="channel-value">+92 316 998 6733</a>
+                </div>
+                <a href="tel:+923169986733" class="channel-action-link" aria-label="Call +92 316 998 6733">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </a>
+              </div>
+
+              <!-- Location Info -->
+              <div class="location-badge-box">
+                <div class="location-icon" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div class="location-text">
+                  <strong>Location:</strong> Rawalpindi / Islamabad, Pakistan &bull; Available for on-site & remote roles.
+                </div>
+              </div>
+            </div>
+
+            <!-- Quick Direct Message Form -->
+            <form class="contact-form" id="contact-form">
+              <h3 class="form-title">Send a Quick Message</h3>
+              <div class="form-group">
+                <label for="form-name" class="form-label">Your Name</label>
+                <input type="text" id="form-name" name="name" class="form-input" placeholder="e.g. Ayesha Khan" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-email" class="form-label">Your Email</label>
+                <input type="email" id="form-email" name="email" class="form-input" placeholder="name@company.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-subject" class="form-label">Subject</label>
+                <input type="text" id="form-subject" name="subject" class="form-input" placeholder="Collaboration / Job Opportunity / Project" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-message" class="form-label">Message</label>
+                <textarea id="form-message" name="message" class="form-textarea" rows="4" placeholder="Hello Huma, I came across your portfolio and wanted to reach out regarding..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
+                <span>Send Message</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              </button>
+              <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <a href="#hero" class="brand-logo footer-logo" aria-label="Scroll back to top">
+          <span class="logo-bracket">&lt;</span>
+          <span class="logo-text">ZH</span>
+          <span class="logo-slash">/</span>
+          <span class="logo-bracket">&gt;</span>
+          <span class="brand-name">Huma Minhas</span>
+        </a>
+        <p class="footer-tagline">Technology with purpose. Solutions that work.</p>
+      </div>
+
+      <div class="footer-center">
+        <p class="footer-copy">&copy; <span id="current-year">2026</span> Zill-e-Huma Minhas, Rawalpindi, Pakistan.</p>
+        <p class="footer-subtext">Built with modern semantic HTML5, CSS & Vanilla JS. Zero external frameworks.</p>
+      </div>
+
+      <div class="footer-right">
+        <a href="#hero" class="back-to-top-btn" id="back-to-top" aria-label="Back to top">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"></polyline></svg>
+          <span>Top</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-notification" id="toast-notification" role="status" aria-live="polite" aria-hidden="true">
+    <span class="toast-icon">&check;</span>
+    <span class="toast-msg" id="toast-msg">Email copied to clipboard!</span>
+  </div>
+
+  <!-- Vanilla JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
